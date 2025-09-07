@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Send test email with Nodemailer",
+      "type": "shell",
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/mailer.js",
+        "${file}"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
